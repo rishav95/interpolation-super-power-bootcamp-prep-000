@@ -1,5 +1,5 @@
 # Write your #display_rainbow method here
 
 def display_rainbow arg
-  puts arg.map {|str| "#{str.upcase[0, 1]}: #{str}"}.join ', '
+  puts "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"
 end
